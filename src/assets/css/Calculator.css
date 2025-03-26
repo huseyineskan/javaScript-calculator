@@ -1,0 +1,42 @@
+.calculator {
+  background-color: rgb(22, 22, 22);
+  padding: 2cqh;
+  max-width: 300px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.screen {
+  text-align: right;
+  background-color: rgb(44, 44, 44);
+  padding: 10px;
+  font-size: 1.5em;
+  margin: 0 0 10px;
+  border-radius: 10px;
+  min-height: 72px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.screen > div {
+  display: block;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+#clear {
+  grid-column: 1 / span 3;
+}
+#equals {
+  grid-column: 3 / span 2;
+  background-color: rgba(0, 74, 212, 0.767);
+}
+
+.mathematical-operators {
+  background-color: rgba(0, 74, 212, 0.308);
+}
