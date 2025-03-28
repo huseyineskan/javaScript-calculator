@@ -1,4 +1,4 @@
-# Javascript Calculator with React
+# Javascript Calculator (React)
 
 It is a simple calculator project.
 
